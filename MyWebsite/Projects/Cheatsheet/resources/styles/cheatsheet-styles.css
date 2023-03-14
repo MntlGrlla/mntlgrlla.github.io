@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto/roboto-v30-latin-regular.woff2') format('woff2'),
+         url('../fonts/Roboto/roboto-v30-latin-regular.woff') format('woff'),
+         url('../fonts/Roboto/roboto-v30-latin-regular.ttf') format('truetype');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #E6EBFF;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+
+header {
+    margin: 0 auto;
+    height: 70px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 0 5px;
+}
+
+
+.nav {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-item {
+    display: inline-flex;
+    margin: 0 5px;
+}
+
+#htmlhead {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#htmlhead h2 {
+    font-size: 40px;
+    width: auto;
+    margin: 0 auto;
+}
+
+#htmlhead p {
+    width: 400px;
+    margin: 0 auto 50px auto;
+    }
+
+.tag {
+    background-color: cornsilk;
+    font-family: monospace;
+}
+
+.tables {
+    margin: 0 auto;
+    border-top: 2px dashed #737680;
+}
+
+.tables h3 {
+    text-align: center;
+    margin: 50px auto 10px;
+    border-bottom: 2px solid #737680;
+    width: 85px;
+}
+
+.tables table {
+    text-align: start;
+    margin: 0 auto;
+    background-color: #CBD7FF;
+    border: 1px solid #2E354D;
+    width: 700px;
+}
+
+.tables th {
+    color: white;
+    text-align: center;
+    border-bottom: 2px solid lightgrey;
+    background-color: #4D5880;
+}
+
+tr {
+    line-height: 1.45;
+}
+
+.tables td {
+    padding-right: 25px;
+    border-bottom: 1px solid #4D5880;
+}
+
+

@@ -1,0 +1,6 @@
+background-color/main color: #E6EBFF;
+
+.tables th color: #4D5880;
+
+.tables border-bottom: #7b5b99;
+
